@@ -16,7 +16,7 @@ client_id = f'publish-{random.randint(0, 1000)}'
 # password = 'public'
 msgtosend={"name":'',"state":''}
 pre_frame=None
-cap=cv2.VideoCapture("hiv00056.mp4")
+cap=cv2.VideoCapture("hiv00056.mp4") //change it to your mp4 video
 
 refPt=[]
 try:
@@ -214,4 +214,5 @@ if __name__ == '__main__':
             break
 
     cap.release()
+
     cv2.destroyAllWindows()
